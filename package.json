@@ -1,0 +1,33 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "仿电商网站",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist && webpack --watch", 
+    "dev": "webpack-dev-server --inline" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huangshouqi/E-commerce.git"
+  },
+  "author": "Archie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huangshouqi/E-commerce/issues"
+  },
+  "homepage": "https://github.com/huangshouqi/E-commerce#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "file-loader": "^0.11.2",
+    "html-loader": "^0.5.1",
+    "html-webpack-plugin": "^2.30.1",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
+    "webpack": "^2.1.0-beta.22",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
